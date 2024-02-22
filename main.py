@@ -41,7 +41,7 @@ async def get(request: Request):
     return templates.TemplateResponse('main-page.html', {'request': request})
 
 
-@app.websocket("/ws/{client_id}")
+@app.websocket("/ws/{client_id}/")
 async def websocket_endpoint(websocket: WebSocket, client_id: int):
     await manager.connect(websocket)
     try:
