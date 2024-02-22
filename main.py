@@ -54,5 +54,5 @@ async def websocket_endpoint(websocket: WebSocket, client_id: int):
         await manager.broadcast(f"Client #{client_id} has left the chat")
 
 
-if __name__ == "__main__":
-    uvicorn.run("main:app", reload=True)
+# if __name__ == "__main__":
+#     uvicorn.run("main:app", reload=True)

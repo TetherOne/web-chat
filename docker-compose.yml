@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  app:
+    build:
+      context: .
+    container_name: web-chat
+    ports:
+      - 8000:8000
