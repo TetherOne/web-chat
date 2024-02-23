@@ -1,7 +1,10 @@
-import uvicorn
-from fastapi import FastAPI, WebSocket, WebSocketDisconnect, Request
-from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
+
+from fastapi import WebSocketDisconnect
+from fastapi import WebSocket
+from fastapi import FastAPI
+from fastapi import Request
+
 
 app = FastAPI()
 
