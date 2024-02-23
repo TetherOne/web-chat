@@ -9,3 +9,4 @@
   - Использовался фреймворк FastAPI с библиотекой WebSocket
   - Добавленно немного JavaScript
 
+![Image alt](https://github.com/TetherOne/web-chat/raw/master/static/img.png)
