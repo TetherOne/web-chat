@@ -6,4 +6,4 @@ services:
       context: .
     container_name: web-chat
     ports:
-      - 8000:8000
+      - 8123:8123
