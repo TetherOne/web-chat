@@ -5,6 +5,8 @@ from fastapi import WebSocket
 from fastapi import FastAPI
 from fastapi import Request
 
+import uvicorn
+
 
 app = FastAPI()
 
@@ -51,5 +53,5 @@ async def websocket_endpoint(websocket: WebSocket, user_id: str):
         await manager.broadcast(f"{user_id} left the chat")
 
 
-# if __name__ == "__main__":
-#     uvicorn.run("main:app", reload=True)
+if __name__ == "__main__":
+    uvicorn.run("main:app", reload=True)
