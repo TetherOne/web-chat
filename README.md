@@ -25,7 +25,7 @@ git clone https://github.com/TetherOne/head-hunter
 ```
 uvicorn main:app
 ```
-## 3. Перейдите в браузере по ссылке:
+## 3. Перейдите в браузер по ссылке:
 ```
 http://127.0.0.1:8000/
 ```
