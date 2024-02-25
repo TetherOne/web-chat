@@ -12,7 +12,23 @@
 ![Image alt](https://github.com/TetherOne/web-chat/raw/master/static/img.png)
 
 # Техническая информация:
-  - Использовался фреймворк FastAPI с библиотекой WebSocket
-  - Добавленно немного JavaScript
+  - Фреймворк FastAPI + WebSocket
+  - JavaScript
+
+# Запуск проекта:
+
+## 1. Клонируйте репозиторий:
+```
+git clone https://github.com/TetherOne/head-hunter
+```
+## 2. Запустите приложение:
+```
+uvicorn main:app
+```
+## 3. Перейдите в браузере по ссылке:
+```
+http://127.0.0.1:8000/
+```
+  
 
 
